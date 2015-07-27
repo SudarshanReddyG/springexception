@@ -6,5 +6,7 @@
 </head>
 <body>
 <h2>Database Error, please contact support</h2>
+<h2>${obj1}</h2>
+<h2>${obj2}</h2>
 </body>
 </html>

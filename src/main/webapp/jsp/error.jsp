@@ -11,6 +11,8 @@
 	<h3>Debug Information:</h3>
 	Requested URL = ${url}<br/><br/>
 	Exception = ${expection.message}<br/><br/>
+	<h2>${obj1}</h2>
+	<h2>${obj2}</h2>
 	<!-- 
 	<strong>Exception Stack Trace</strong>
 	<c:forEach items="${exception.stackTrace}" var="stc">

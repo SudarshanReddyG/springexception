@@ -8,5 +8,6 @@
 <body>
 	<h2>Unknown Error Occured, please contact support</h2>
 	<h3>${exc.message}</h3>
+	<h3>${url}</h3>
 </body>
 </html>

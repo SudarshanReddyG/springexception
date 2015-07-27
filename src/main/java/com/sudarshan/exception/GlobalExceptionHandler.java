@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.ResponseStatus;
 @ControllerAdvice
 public class GlobalExceptionHandler {
 	
-	@ExceptionHandler(Exception.class)
+	/*@ExceptionHandler(Exception.class)
 	public String handleException(HttpServletRequest req, Exception exp) throws Exception {
 		 // If the exception is annotated with @ResponseStatus rethrow it and let
         // the framework handle it - like the OrderNotFoundException example
@@ -24,7 +24,7 @@ public class GlobalExceptionHandler {
 			throw exp;
 		}
 		return "error";
-	}
+	}*/
 	
 	
 	@ExceptionHandler(SQLException.class)

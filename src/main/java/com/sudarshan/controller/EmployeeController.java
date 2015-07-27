@@ -51,6 +51,8 @@ public class EmployeeController {
 		
 		modelAndView.setViewName("error");
 		
+		System.out.println("modelAndView   inside "+modelAndView);
+		
 		return modelAndView;
 	}
 	
